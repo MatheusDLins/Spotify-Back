@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class AlbumDto {
 
-    private AlbumType albumType; //
+    private AlbumType albumType;
     private ArtistSimplified[] artist; //vai retornar uma lista dos artistas
     private ExternalUrl externalUrl;
     private String id;
