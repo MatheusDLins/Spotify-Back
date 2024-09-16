@@ -15,7 +15,3 @@ server:
   port: 8080
   servlet:
     context-path: /demo
-spotify:
-  client-id: 92ddf95e6a0049c3868daf64decc4d1
-  client-secret: 420c181a30104cdabc1dae861f97946
-  token-url: https://accounts.spotify.com/api/token
