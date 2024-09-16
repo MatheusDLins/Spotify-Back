@@ -37,7 +37,7 @@ public class SpotifyApiClient {
 
     public List<AlbumDto> getAlbums(String search) {
         try {
-            log.info("Pegando álbuns do Spotify");
+            log.info("Pegando álbuns");
             getSpotifyApi().setAccessToken(getAccessToken());
             var albums = getSpotifyApi().searchAlbums(search)
                     .market(CountryCode.BR)
